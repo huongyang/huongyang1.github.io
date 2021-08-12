@@ -1,0 +1,153 @@
+@charset "utf-8";
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+
+.nav{   
+    background-color: #35384c;
+    height: 80px;
+    padding-left: 20px;
+	color: white;
+}
+
+.content,.footer{
+    background-color: #e9dccd;
+    position: relative;
+}
+
+
+.nav ul li {
+    display: inline;
+    margin-right: 150px;
+    font-size: 25px;
+}
+
+.nav ul{
+    float: right;
+    padding-top: 30px;
+}
+
+
+.noidung1{
+    background-image: url("bg.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    width: 100%;
+    text-align: center;
+    padding-top: 0px;
+}
+
+.noidung1 h1{
+    font-size: 150px;    
+    padding-top: 100px;
+	color: white;
+}
+
+.noidung1 h2{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;    
+    padding-top: 50px;
+	color: white;
+}
+
+.anh1{
+    background-image: url("anh1.jpg");
+}
+
+.anh2{
+    background-image: url("anh2.jpg");
+}
+
+.anh3{
+    background-image: url("anh3.jpg");
+}
+
+.anh4{
+    background-image: url("anh4.jpg");
+}
+
+.noidung1 img{
+    height: 200px;
+    width: 20%;
+    position: relative;
+}
+
+.noidung2 img{
+    height: 180px;
+    width: 20%;
+    position: relative;
+}
+
+.itemanh{
+    width: 20%;
+    height: 100%;
+}
+.bsthinhanh{
+    text-align: center;
+}
+
+.noidung2{
+    height:600px;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+
+}
+.chuale2ben{
+    padding: 0 20%;
+}
+.noidung3{
+    background-color: #36384c;
+    position: relative;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    height: 950px;
+}
+.noidung3 .bentrai img{
+    width: 550px;
+    height: 320px;
+}
+.noidung3 .benphai img{
+    width: 550px;
+    height: 320px;
+}
+.noidung3 .bentrai{
+    width: 40%;
+    padding-left: 10%;
+    float: left;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+.noidung3 .benphai {
+    width: 40%;
+    padding-right : 10%;
+    float: right;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+.noidung4 {
+    height:500px;
+}
+
+.noidung4 img{
+    float: left;
+    height: 300px;
+    width: 500px;
+}
+
+
+.hinhanhbentrai{
+    background-image: url('map.png');
+    background-size: cover;
+    height: 200px;
+    float: left;
+    width: 50%;
+}
